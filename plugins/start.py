@@ -40,7 +40,7 @@ async def start_command(client: Client, message):
             ]] 
         else:
              print(e)
-            try:
+        try:
                 btn.append(
                       [
                         InlineKeyboardButton(
